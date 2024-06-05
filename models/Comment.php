@@ -83,7 +83,7 @@ class Comment extends AbstractEntity
      * Si la date est une string, on la convertit en DateTime.
      * @param string|DateTime $dateCreation
      * @param string $format : le format pour la convertion de la date si elle est une string.
-     * Par défaut, c'est le format de date mysql qui est utilisé. 
+    
      */
     public function setDateCreation(string|DateTime $dateCreation, string $format = 'Y-m-d H:i:s') : void 
     {
